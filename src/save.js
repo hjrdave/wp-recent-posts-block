@@ -24,8 +24,8 @@ import { useBlockProps } from '@wordpress/block-editor';
  */
 export default function save() {
 	return (
-		<p { ...useBlockProps.save() }>
-			{ __( 'Gutenpride – hello from the saved content!', 'gutenpride' ) }
+		<p {...useBlockProps.save()}>
+			{__('Gutenpride Foo – hello from the saved content!', 'gutenpride')}
 		</p>
 	);
 }
