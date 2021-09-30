@@ -12,5 +12,13 @@
 	"textdomain": "gutenpride",
 	"editorScript": "file:./build/index.js",
 	"editorStyle": "file:./build/index.css",
-	"style": "file:./build/style-index.css"
+	"style": "file:./build/style-index.css",
+	"attributes": {
+		"message": {
+			"type": "string",
+			"source": "text",
+			"selector": "div",
+			"default": "Type Here"
+		}
+	}
 }
